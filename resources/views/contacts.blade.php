@@ -26,7 +26,7 @@
     @include('partials.header')
 
     <section id="contacts">
-        <h2>Contacts</h2>
+        <h2>CONTACTS</h2>
         <div class="contact-list">
             <ul>
                 @foreach ($data as $key => $value)

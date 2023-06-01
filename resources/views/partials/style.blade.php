@@ -13,7 +13,7 @@
         align-items: center;
     }
     #hello {
-        color: #EF3B2D;
+        color: gold;
         margin: 20px;
         font-size: 3rem;
     }
@@ -22,21 +22,28 @@
         justify-content: center;
         margin: 20px
     }
-    ul {
+    header ul {
         display: flex;
         /* justify-content: center; */
     }
-    li {
+    header ul li {
         list-style: none;
         margin: 0 10px
     }
-    a {
+    header ul li a {
         text-decoration: none;
         color: white;
+        background-color: #EF3B2D;
+        padding: 5px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: all .3s;
     }
     a:hover {
         text-decoration: underline;
         color: #EF3B2D;
+        background-color: white;
     }
     #contacts {
         display: flex;
