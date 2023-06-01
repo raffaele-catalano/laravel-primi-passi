@@ -9,32 +9,18 @@
     <title>Laravel First Steps</title>
 </head>
 
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    body {
-        background-color: #1D2225;
-    }
-    .logo-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #hello {
-        color: #EF3B2D;
-        margin: 20px;
-        font-size: 3rem;
-    }
-</style>
+
 
 <body>
-    <div class="logo-container">
-        <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300">
-        <h1 id="hello">{{$hello}}</h1>
-    </div>
+    @include('partials.style')
+    @include('partials.header')
+
+    <section>
+        <div class="logo-container">
+            <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300">
+            <h1 id="hello">{{$hello}}</h1>
+        </div>
+    </section>
 </body>
 
 </html>

@@ -12,10 +12,21 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
 
     $hello = 'Hello World!';
 
     return view('home', compact('hello'));
+});
+
+Route::get('/contacts', function () {
+
+    $data = [
+        'Customer Service'      => '+46 5486325',
+        'Sales Office'          => '+47 5488892',
+        'Marketing Office'      => '+46 5582654',
+        'Administrative Office' => '+46 5582654',
+    ];
+
+    return view('contacts', compact('data'));
 });
