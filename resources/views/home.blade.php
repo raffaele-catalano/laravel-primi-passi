@@ -15,10 +15,13 @@
     @include('partials.style')
     @include('partials.header')
 
-    <section>
+    <section id="main">
         <div class="logo-container">
             <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300">
             <h1 id="hello">{{$hello}}</h1>
+        </div>
+        <div class="gif-container">
+            <img src="https://media3.giphy.com/media/mf8UbIDew7e8g/giphy.gif" alt="world">
         </div>
     </section>
 </body>

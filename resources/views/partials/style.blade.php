@@ -5,15 +5,21 @@
         box-sizing: border-box;
     }
     body {
-        background-color: #1D2225;
+        background-color: #071123;
+    }
+    #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .logo-container {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 80px;
     }
     #hello {
-        color: gold;
+        color: white;
         margin: 20px;
         font-size: 3rem;
     }
