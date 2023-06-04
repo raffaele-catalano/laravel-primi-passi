@@ -18,11 +18,11 @@ php artisan serve
 or
 php -S localhost:8000 -t public
 ```
-- A questo punto sistemare lo scaffolding e prendere confidenza con le *ruotes* e le *views*:
+- A questo punto sistemare lo scaffolding e prendere confidenza con le *routes* e le *views*:
     - cancellare la *view* `welcome.blade.php` e creare una nuova *homepage*;
     - far si che la *route* `/` visualizzi `home.blade.php`;
     - inizialmente stampare un **Hello World**;
     - passare dei dati alla `view` in modo da visualizzarli dinamicamente con `Blade`.
 
 ## Bonus
-Creare più di una pagina e visualizzare un `header` *menu* con i link di tutte le pagine, utilizzando la funzione `ruote()`.
+Creare più di una pagina e visualizzare un `header` *menu* con i link di tutte le pagine, utilizzando la funzione `route()`.
